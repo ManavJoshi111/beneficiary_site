@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leftcontainer {
+  width: 50%;
+}
+
+.rightcontainer {
+  width: 50%;
+  font-family: "Hahmlet", serif;
+  transition: 1s;
+}
+
+.rightcontainer center p {
+  text-align: justify;
+}
+
+.marginanim {
+  animation: anim 2.4s infinite;
+  padding-top: 10px;
+}
+
+#hey {
+  color: var(--blue) !important;
+  font-weight: 2000;
+}
+
+.titleproj {
+  color: var(--blue);
+  margin-left: 20px;
+  font-size: 2.9rem;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* ******* MEDIA QUERIS ******** */
+
+@media screen and (max-width: 768px) {
+  .marginanim {
+    animation: none;
+  }
+  .leftcontainer,
+  .rightcontainer {
+    width: 100%;
+  }
+}
