@@ -44,7 +44,7 @@ const Contact = () => {
                                     </div>
                                     <div className="d-flex info_single align-items-center">
                                         <i className="fas fa-map-marked-alt"></i>
-                                        <span>1000+ Travel partners and 65+ Service city across India, USA, Canada & UAE</span>
+                                        <span>Sachivalaya Gandhinagar</span>
                                     </div>
 
                                 </div>
